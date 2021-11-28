@@ -53,6 +53,7 @@ header nav ul li a {
 
 /* header styles end */
 
+/* hero styles start */
 .hero {
     background-image: url('../images/hero.JPG');
     background-size: cover;
@@ -72,7 +73,9 @@ header nav ul li a {
     max-width: 25%;
     margin: 15px auto;
 }
+/* hero styles end */
 
+/*section styles start */
 .section-title {
     font-size: 48px;
     padding-bottom: 20px;
@@ -85,10 +88,6 @@ section p {
     font-size: 18px;
     padding-bottom: 20px;
     margin: 50px auto 50px 35px;
-}
-
-.flex-row {
-    display: flex;
 }
 
 .projects {
@@ -131,3 +130,10 @@ section p {
     background-image: url(../images/Horiseon.png);
     Background-size: cover;
 }
+/*section styles end */
+
+/* utilities */
+.flex-row {
+    display: flex;
+}
+/* utilities end */
