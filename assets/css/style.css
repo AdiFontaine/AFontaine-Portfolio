@@ -126,3 +126,8 @@ section p {
     text-align: center;
     margin: 20px;
 }
+
+.Horiseon {
+    background-image: url(../images/Horiseon.png);
+    Background-size: cover;
+}
