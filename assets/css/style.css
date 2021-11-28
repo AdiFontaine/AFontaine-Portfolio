@@ -68,11 +68,16 @@ header nav ul li a {
     font-size: 55px;
 }
 
+.hero img {
+    max-width: 25%;
+    margin: 15px auto;
+}
+
 .section-title {
     font-size: 48px;
     padding-bottom: 20px;
     text-align: left;
-    margin: 50px 50px 50px 35px;
+    margin: 50px 35px 50px 35px;
     width: 50%;
 }
 
@@ -95,14 +100,21 @@ section p {
     align-content: center;
 }
 
+.projects a {
+    text-decoration: none;
+    color: black;
+}
+
 .first {
     padding: 100px;
     flex: 1;
+    border: 2px solid black;
     background-image: url(../images/Run-Buddy.png);
     background-size: cover;
     background-position: 80%;
     font-size: 30px;
     text-align: center;
+    margin: 20px;
 }
 
 .additional {
@@ -112,4 +124,5 @@ section p {
     background-color:rgb(5, 199, 199);
     font-size: 20px;
     text-align: center;
+    margin: 20px;
 }
