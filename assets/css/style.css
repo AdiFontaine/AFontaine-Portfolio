@@ -72,13 +72,13 @@ header nav ul li a {
 .hero img {
     max-width: 25%;
     margin: 15px auto;
+    display: flex;
 }
 /* hero styles end */
 
 /*section styles start */
 .section-title {
     font-size: 48px;
-    padding-bottom: 20px;
     text-align: left;
     margin: 50px 35px 50px 35px;
     width: 50%;
@@ -86,8 +86,7 @@ header nav ul li a {
 
 section p {
     font-size: 18px;
-    padding-bottom: 20px;
-    margin: 50px auto 50px 35px;
+    margin: 50px 35px 50px 35px;
 }
 
 .projects {
@@ -95,6 +94,7 @@ section p {
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-around;
     align-content: center;
 }
@@ -106,7 +106,7 @@ section p {
 
 .first {
     padding: 100px;
-    flex: 1;
+    flex: 100%;
     border: 2px solid black;
     background-image: url(../images/Run-Buddy.png);
     background-size: cover;
@@ -117,13 +117,16 @@ section p {
 }
 
 .additional {
-    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: 2px solid black;
-    flex: 1;
+    flex: 75%;
     background-color:rgb(5, 199, 199);
     font-size: 20px;
-    text-align: center;
-    margin: 20px;
+    height: 100px;
+    width: 250px;
+    margin-bottom: 20px;
 }
 
 .Horiseon {
@@ -137,3 +140,36 @@ section p {
     display: flex;
 }
 /* utilities end */
+
+/* Media Query */
+@media screen and (max-width: 768px) {
+    .header {
+        padding-bottom: 0;
+        position: relative;
+    }
+    .hero h2 {
+        font-size: 40px;
+    }
+
+    .section-title {
+        font-size: 35px;
+    }
+
+    section p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    header h1 {
+        font-size: 25px;
+    }
+
+    .hero h2 {
+        font-size: 30px;
+    }
+
+    .section-title {
+        font-size: 25px;
+    }
+}
