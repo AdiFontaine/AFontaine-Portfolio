@@ -4,3 +4,4 @@
 
 ### Thank you for [visiting my page](https://adifontaine.github.io/AFontaine-Portfolio/)
 
+![Landing-Page](https://user-images.githubusercontent.com/92394725/143968984-11eedb78-9548-4d8f-a22a-bb570fd02acd.png)
